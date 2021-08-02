@@ -1,13 +1,6 @@
-from django.http import response
 from django.shortcuts import render
-# from django.http import HttpResponse
 import requests
 
-
-# def index(request):
-#     return HttpResponse("Hello, world. You're at the polls index.")
-
-# Create your views here.
 def index(request):
     area = request.GET.get('area')
     area = str(area)
@@ -25,8 +18,5 @@ def index(request):
         'WindDirection': response['current']['wind_dir'],
         'Humidity': response['current']['humidity'],
     }
-    # print(city_weather)
-    # print(response.text)
-
-
+    
     return render(request, 'index.html', {'city_weather': city_weather})
