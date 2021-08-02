@@ -26,7 +26,7 @@ SECRET_KEY = 'tjv%c2@r&g*gs36ioiz=zen32%+fam@svx8lfhoy&rt=5((^v6'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['a2zweather.azurewebsites.net']
+ALLOWED_HOSTS = ['a2zweather.azurewebsites.net','127.0.0.1']
 
 
 # Application definition
