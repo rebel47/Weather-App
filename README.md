@@ -2,4 +2,4 @@
 
 ## API used: 'https://www.weatherapi.com/'
 
-![Logo](Capture.jpg)
+![Logo](Capture.JPG)
